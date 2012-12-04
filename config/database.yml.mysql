@@ -1,0 +1,20 @@
+development: &development
+  adapter: mysql2
+  host: localhost
+  username: root
+  password: pass
+  database: refinery_development
+
+test: &test
+  adapter: mysql2
+  host: localhost
+  username: root
+  password: pass
+  database: refinery_test
+
+production: &production
+  adapter: mysql2
+  host: localhost
+  database: refinery_production
+  username: root
+  password: pass

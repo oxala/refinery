@@ -1,0 +1,7 @@
+<h1 id='logo'>
+  <%= copywriting('Title', { :scope => 'header', :default => 'Web-site-temp-title' }) %>
+</h1>
+<%= render(:partial => "/refinery/menu", :locals => {
+             :dom_id => 'menu',
+             :css => 'menu'
+           }) %>
